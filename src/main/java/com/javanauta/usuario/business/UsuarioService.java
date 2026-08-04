@@ -1,8 +1,8 @@
 package com.javanauta.usuario.business;
 
 import com.javanauta.usuario.infrastructure.entity.Usuario;
-import com.javanauta.usuario.infrastructure.excessao.ConflictException;
-import com.javanauta.usuario.infrastructure.excessao.ResourceNotFoundException;
+import com.javanauta.usuario.infrastructure.excecao.ConflictException;
+import com.javanauta.usuario.infrastructure.excecao.ResourceNotFoundException;
 import com.javanauta.usuario.infrastructure.repository.UsuarioRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.crypto.password.PasswordEncoder;
